@@ -126,3 +126,77 @@ Slower Updates
 🧠 Interview Line:
 "Angular powerful hai but React ke mukable complex aur heavy hai — especially beginners ke liye."
 ***
+# 🧰 Git vs GitHub – Explained 
+
+## 🔧 Git kya hai?
+**Git** ek **version control system** hai jo aapke code ke **history ko track karta hai**.
+
+### 📌 Git ke Use:
+- Code ke versions save karne ke liye  
+- Changes ko undo/compare karne ke liye  
+- Team me collaborate karne ke liye (local ya remote)
+
+🧠 **Offline tool** hai, aapke computer pe run hota hai.
+
+---
+
+## ☁️ GitHub kya hai?
+**GitHub** ek **online platform** hai jahan aap apna Git wala code **store, share aur manage** kar sakte ho.
+
+### 📌 GitHub ke Use:
+- Git repositories ko cloud me rakhne ke liye  
+- Team ke sath milkar kaam karne ke liye  
+- Pull requests, issues, reviews handle karne ke liye  
+- Open-source projects contribute karne ke liye
+
+🧠 **GitHub = Git + Social + Cloud**
+
+---
+
+## 🔁 Git vs GitHub – Key Differences
+
+| Feature            | Git (🔧 Tool)                        | GitHub (☁️ Platform)                        |
+|--------------------|--------------------------------------|---------------------------------------------|
+| Type               | Version Control System               | Code Hosting Platform                        |
+| Kaam kya karta hai | Code track & manage karta hai        | Code ko online store & collaborate karata hai|
+| Internet required? | ❌ Nahi (mostly offline)             | ✅ Haan (cloud-based)                        |
+| Maintained by      | Linus Torvalds (originally)          | Microsoft                                    |
+| Examples           | `git init`, `git commit`, `git push` | Create repo, pull request, issues, etc.      |
+
+---
+
+## 🧠 Interview Tip:
+> "Git ek tool hai jo code ka version manage karta hai, aur GitHub ek platform hai jahan wo Git repos ko online store aur share kiya ja sakta hai."
+
+# 📦 npm kya hai? (Hinglish)
+
+## 🔹 Definition:
+**npm** ka full form hai **Node Package Manager**.  
+Ye ek **tool** aur **online library (registry)** hai jo **JavaScript packages** ko manage karta hai.
+
+---
+
+## 🔧 npm ka Use:
+- Packages (libraries) **install** karna  
+- Apne projects me dependencies **manage** karna  
+- Custom packages ko **publish** karna  
+- Version control for packages
+
+---
+
+## 📌 Common npm Commands:
+
+| Command                  | Description                          |
+|--------------------------|--------------------------------------|
+| `npm init`               | Project me npm setup karta hai       |
+| `npm install <package>`  | Package install karta hai            |
+| `npm start`              | Project run karta hai (agar defined ho) |
+| `npm install`            | `package.json` ke according sab install karta hai |
+| `npm uninstall <package>`| Package remove karta hai             |
+
+---
+
+## 🧠 Interview Tip:
+> "npm ek tool hai jo JavaScript packages ko install aur manage karta hai — especially Node.js projects me."
+
+ * Webpack , Vite and parser are the bundlers whicch budles the code and make clean and ready to production.
