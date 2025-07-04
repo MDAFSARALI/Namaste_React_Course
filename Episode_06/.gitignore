@@ -1,0 +1,43 @@
+# Node modules
+node_modules/
+
+# Parcel cache
+.parcel-cache/
+
+# Build output (optional, depending on config)
+dist/
+
+# Environment variables
+.env
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Editor-specific (optional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Test coverage
+coverage/
+
+# Local development SSL keys (optional)
+*.pem
+
+# Mac system files
+._*
+
+# Optional lock files (if you're only using one)
+# Remove the ones not in use
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
